@@ -23,28 +23,29 @@
       font-size: 1.3rem;
       margin-top: 20px;
     }
-    .btn {
-      background: #4caf50;
-      color: white;
-      padding: 15px 25px;
-      border: none;
-      border-radius: 8px;
-      font-size: 1rem;
-      margin-top: 40px;
-      cursor: pointer;
-      transition: 0.3s;
+     .btn {
+    background: #4caf50;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-top: 20px; /* Daha yukarı almak için 40'tan 20'ye çekildi */
+    margin-bottom: 20px; /* Butonla resim arasında net boşluk */
+    cursor: pointer;
+    transition: 0.3s;
     }
     .btn:hover {
       background: #388e3c;
     }
     img {
-      width: 100%;
-      max-width: 300px;
-      margin-top: 60px;
-      border-radius: 15px;
-      box-shadow: 0 0 20px #0002;
-      z-index: 1;
-      position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 0; /* Üst boşluk kaldırıldı */
+    border-radius: 15px;
+    box-shadow: 0 0 20px #0002;
+    z-index: 1;
+    position: relative;
     }
     @keyframes shake {
       0% { transform: rotate(1deg); }
